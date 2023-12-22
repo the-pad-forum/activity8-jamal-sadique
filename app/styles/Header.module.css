@@ -1,8 +1,10 @@
 .header {
-  background-color: #fff;
+  background: url('../images/header-background.png') no-repeat center;
   padding: 1rem;
   text-align: center;
 }
+
+
 .dp {
   height: 120px;
   border-radius: 50%;
