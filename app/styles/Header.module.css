@@ -23,6 +23,8 @@ header .overlay {
 
 
 .dp {
+  display: inline;
+  text-align: center;
   height: 134px;
   border-radius: 50%;
   object-fit: cover;

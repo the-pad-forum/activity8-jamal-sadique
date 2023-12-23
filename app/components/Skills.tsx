@@ -3,7 +3,7 @@ import styles from '../styles/Skills.module.css';
 const Skills = () => {
   return (
     <section className={styles.skills}>
-      <h2 className={styles.h2}>Skills</h2>
+      <h2>SKILLS</h2>
       <div className={styles.skill}>
         <span className={styles.skillName}>CSS</span>
         <div className={styles.progressBar}>

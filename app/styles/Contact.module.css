@@ -1,4 +1,84 @@
 .contact {
-  padding: 2rem;
-  background-color: #ddd;
+  padding: 4rem 0 5rem;
+  background: url('../images/gray-google-map.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  max-width: 100%;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.contact span {
+  width: 2rem;
+}
+
+.contact form {
+  position: relative;
+  z-index: 2;
+}
+
+.contact::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1));
+  z-index: 1;
+}
+
+.inputGroup {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 1rem;
+  width: 80%;
+}
+
+.inputGroup input[type="text"],
+.inputGroup input[type="email"] {
+  width: 50%;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact textarea {
+  display: block;
+  height: 100px;
+  resize: none;
+  margin: 0 auto 1rem;
+  width: 80%;
+}
+
+.contact button {
+  display: block;
+  padding: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 auto 5rem;
+  width: 80%;
+}
+
+.contact button:hover {
+  background-color: #0056b3;
 }
