@@ -1,4 +1,78 @@
 .skills {
   padding: 2rem;
   background-color: #eaeaea;
+  font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.h2 {
+  text-align: center;
+  zoom: 1.5;
+  margin-bottom: 2rem;
+}
+
+.skills {
+  max-width: 100%;
+  padding: 3rem 0 6rm 0;
+  background-color: #fff;
+  border-bottom: 2px solid #ddd;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto 1rem;
+  width: 80%;
+}
+
+.skillName {
+  flex: 1;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.progressBar {
+  flex: 4;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  position: relative;
+}
+
+.filled1 {
+  height: 20px;
+  width: 528.5px;
+  background: linear-gradient(to right, #3498db, #9b59b6);
+  border-radius: 10px;
+}
+.filled2 {
+  height: 20px;
+  width: 302px;
+  background: linear-gradient(to right, #3498db, #9b59b6);
+  border-radius: 10px;
+}
+.filled3 {
+  height: 20px;
+  width: 620px;
+  background: linear-gradient(to right, #3498db, #9b59b6);
+  border-radius: 10px;
+}
+.filled4 {
+  height: 20px;
+  width: 453px;
+  background: linear-gradient(to right, #3498db, #9b59b6);
+  border-radius: 10px;
+}
+
+.filled5 {
+  height: 20px;
+  width: 581.35px;
+  background: linear-gradient(to right, #3498db, #9b59b6);
+  border-radius: 10px;
+}
+
+.skillPercent {
+  flex: 1;
+  text-align: right;
+  margin-left: 10px;
 }
