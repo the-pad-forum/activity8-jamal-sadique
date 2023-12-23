@@ -1,4 +1,26 @@
 .about {
-  padding: 2rem;
+  padding: 1rem 6rem 2rem;
   background-color: #f3f3f3;
+  position: relative;
+  text-align: justify;
+  font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.aboutVideo {
+  float: left;
+  height: 350px;
+  width: auto;
+  min-height: inherit;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.aboutText {
+  word-wrap: break-word;
+}
+
+.h2 {
+  text-align: center;
+  zoom: 1.5;
+  margin-bottom: 2rem;
 }
